@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="12dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/profile"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Salamah"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_nama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nama Lengkap"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Salamah"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:id="@+id/textViewKelamin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Perempuan"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jenis Kelamin"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textViewAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jl. Ir. H. Djuanda No.95, Cemp. Putih, Ciputat, Kota Tangerang Selatan, Banten 15412"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alamat Lengkap"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textViewProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Banten"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_provinsi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Provinsi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textViewKabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kota Tangerang"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_kabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kabupaten / Kota"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textViewKecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ciputat"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/lbl_kecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kecamatan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/input_login_hint"
+                />
+
+            <TextView
+                android:id="@+id/textViewRead"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@color/btn_login"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:text="UBAH PROFILE"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembelajaran OnLine"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal : 12 Desember 2018"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageurl"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/online"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_marginTop="@dimen/elevation_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:background="@color/white"
+            android:text="Pembelajaran online (juga dikenal dengan pembelajaran elektronik, atau e-Learning) merupakan hasil dari suatu pembelajaran yang disampaikan secara elektronik dengan menggunakan komputer dan media berbasis komputer. Bahannya biasa sering diakses melalui sebuah jaringan. Sumbernya bisa berasal dari website, internet, intranet, CD-ROM, dan DVD. Selain memberikan instruksi, e-learning juga dapat memonitor kinerja peserta didik dan melaporkan kemajuan peserta didik. E-learning tidak hanya mengakses informasi (misalnya, halaman web), tetapi juga  membimbing peserta didik untuk mencapai hasil belajar yang spesifik (misalnya, tujuan). SimakBaca secara fonetik" />
+
+    </LinearLayout>
+</ScrollView>
+

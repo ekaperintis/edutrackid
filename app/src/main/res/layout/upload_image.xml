@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_Images">
+
+    <ImageView
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagview"
+        android:scaleType="fitXY"
+        android:background="@drawable/noimagefound"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/fab_margin"
+        android:id="@+id/linearlayout"
+        android:gravity="center"
+        android:layout_below="@+id/imagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Select Image"
+            android:id="@+id/select_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="@string/submit"
+            android:id="@+id/upload_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="@dimen/fab_margin"
+        android:padding="@dimen/fab_margin"
+        android:textSize="@dimen/fab_margin"
+        android:textColor="@color/btn_login"
+        android:gravity="center"
+        android:layout_below="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pilih tombol select image terlebih dahulu, kemudian pilih tombol upload image "/>
+
+
+</RelativeLayout>
